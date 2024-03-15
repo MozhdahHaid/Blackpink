@@ -1,0 +1,197 @@
+body{
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: darkslategray;
+    padding: 5px;
+    top: 0px;
+    width: 100%;
+    position: absolute;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+nav li a{
+    text-decoration: none;
+    color: beige;
+    font-size: 18px;
+    transition: 1s;
+    border-radius: 2px;
+}
+nav ul li{
+    list-style: none;
+    float: left;
+    padding-left: 10px;
+}
+nav ul li a:hover{
+    background-color: rgb(146, 139, 7);
+}
+nav ul li a:focus{
+    background-color: blue;
+    color: white;
+    text-align: center;
+}
+.one{
+    width: 300px;
+    height: 300px;
+    background-color: rgb(33, 43, 43);
+    text-align: center;
+    position: relative;
+    left: 140px;
+    border: 2px solid rgb(67, 2, 67);
+    float: left;
+}
+div{
+    background-color: rgb(48, 62, 62);
+    width: 320px;
+    height: auto;
+
+}
+
+div:hover{
+    box-shadow: 1px 1ex 2px 1px rgb(19, 49, 49);
+    filter: saturate(2);
+    transform: scale(1.1);
+}
+.two{
+    width: 300px;
+    height: 300px;
+    background-color: rgb(33, 43, 43);
+    text-align: center;
+    position: relative;
+    left: 205px;
+    border: 2px solid rgb(67, 2, 67);
+    float: left;
+}
+.three{
+    width: 300px;
+    height: 300px;
+    background-color: rgb(33, 43, 43);
+    text-align: center;
+    position: relative;
+    left: 275px;
+    border: 2px solid rgb(67, 2, 67);
+    float: left;
+}
+
+.m{
+color: beige;
+font-size: 12px;
+text-align: center;
+}
+.c{
+    color: beige;
+}
+.p{
+    color: red;
+    position: relative;
+    bottom: 190px;
+    size: 100px;
+    opacity: 0;
+    
+}
+.p:hover{
+    opacity: 100%;
+}
+a{
+    text-decoration: none;
+}
+.section{
+    height: 500px;
+}
+footer{
+    background-color: darkslategray;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+ul li{
+    color: beige;
+    list-style: none;
+}
+footer ul{
+    margin: 0.5px;
+    padding: 0;
+}
+/*  brose css style */
+.v{
+    height: 100%;
+    width: 100%;
+}
+/* videos css style */
+
+.main{
+    width: 1000px;
+    height: 1000px;
+}
+.v1{
+    width: 300px;
+    height: 300px;
+    background-color: rgb(33, 43, 43);
+    text-align: center;
+    position: relative;
+    left: 140px;
+    border: 2px solid rgb(19, 47, 47);
+    float: left;
+    top: 50px;
+}
+.v2{
+    width: 300px;
+    height: 300px;
+    background-color: rgb(33, 43, 43);
+    text-align: center;
+    position: relative;
+    left: 205px;
+    border: 2px solid rgb(67, 2, 67);
+    float: left;
+    top: 50px;
+}
+.v3{
+    width: 300px;
+    height: 300px;
+    background-color: rgb(33, 43, 43);
+    text-align: center;
+    position: relative;
+    left: 275px;
+    border: 2px solid rgb(67, 2, 67);
+    float: left;
+    top: 50px;
+}
+.d1{
+    width: 300px;
+    height: 300px;
+    background-color: rgb(33, 43, 43);
+    text-align: center;
+    position: relative;
+    border: 2px solid rgb(67, 2, 67);
+    float: left;
+    left: 140px;
+    bottom: 0;
+    top: 170px;
+}
+.d2{
+    width: 300px;
+    height: 300px;
+    background-color: rgb(33, 43, 43);
+    text-align: center;
+    position: relative;
+    left: 205px;
+    top: 170px;
+    border: 2px solid rgb(67, 2, 67);
+    float: left;
+}
+.d3{
+    width: 300px;
+    height: 300px;
+    background-color: rgb(33, 43, 43);
+    text-align: center;
+    position: relative;
+    left: 275px;
+    border: 2px solid rgb(28, 48, 48);
+    float: left;
+    top: 170px;
+}
